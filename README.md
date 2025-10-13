@@ -5,3 +5,4 @@ C# Dev Kit: code --install-extension ms-dotnettools.csdevkit
 ESLint: code --install-extension dbaeumer.vscode-eslint
 Prettier: code --install-extension esbenp.prettier-vscode
 Terraform code: code --install-extension HashiCorp.terraform
+Azure sub -invmanaccount
