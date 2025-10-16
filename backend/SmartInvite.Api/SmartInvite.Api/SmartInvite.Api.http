@@ -1,0 +1,6 @@
+@SmartInvite.Api_HostAddress = http://localhost:5031
+
+GET {{SmartInvite.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

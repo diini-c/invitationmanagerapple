@@ -1,15 +1,15 @@
 provider "azurerm" {
   features {}
-  subscription_id = "f230c61f-0025-4bd8-a85c-269663fb293b"
+  subscription_id = var.subscription_id
 }
 
 resource "azurerm_resource_group" "hub_rg" {
-  name     = "smart-invite-hub-rg"
-  location = "UK South"
+  name     = var.resource_group_name
+  location = var.location
 }
 
 resource "azurerm_container_registry" "acr" {
-  name                = "smartinviteacr59602"
+  name                = var.acr_name
   resource_group_name = azurerm_resource_group.hub_rg.name
   location            = azurerm_resource_group.hub_rg.location
   sku                 = "Basic"
