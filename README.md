@@ -6,7 +6,7 @@ ESLint: code --install-extension dbaeumer.vscode-eslint
 Prettier: code --install-extension esbenp.prettier-vscode
 Terraform code: code --install-extension HashiCorp.terraform
 
-Saddes steps
+ steps
 Sample api in C#
 Sample web app in react native 
 Deploy them in azure
